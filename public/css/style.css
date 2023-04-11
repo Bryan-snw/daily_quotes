@@ -1,0 +1,202 @@
+/* Font
+font-family: 'Dosis', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif; */
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        to right top,
+        #447be8,
+        #7a91ec,
+        #a0a8f0,
+        #c0c1f5,
+        #dddbf9,
+        #e4dffb,
+        #ebe3fd,
+        #f2e7ff,
+        #efd3fd,
+        #f0bef8,
+        #f4a7ee,
+        #fa8ddf
+    );
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: #fff0; */
+
+    font-family: "Nunito", sans-serif;
+}
+
+nav {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding: 0.5em 5em 0.5em 5em;
+}
+
+.navbar-brand {
+    font-size: 1.7em;
+}
+
+.nav-item {
+    font-size: 1.2em;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 5em;
+    padding: 40px 20%;
+    margin: 0;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.myCard {
+    background-image: linear-gradient(
+        to right top,
+        #fa8fdf,
+        #f3a8ee,
+        #efbef8,
+        #edd2fd,
+        #f0e5ff,
+        #e9e1fc,
+        #e2dcfa,
+        #dbd8f7,
+        #bfbff3,
+        #a0a7ef,
+        #7a90ec,
+        #447be8
+    );
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.201);
+    margin: 30px 25%;
+    padding: 100px 10%;
+}
+
+.content {
+    font-size: 1.6em;
+}
+
+.sender {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.btnGenerate {
+    margin: 15px;
+    width: 33%;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.3em;
+}
+
+.btnSubmit {
+    margin: 15px;
+    width: 33%;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+.container-about {
+    font-size: 1.5em;
+    text-align: justify;
+    font-weight: 700;
+    padding: 30px 5%;
+}
+
+.container-post {
+    font-size: 1.3em;
+    padding: 30px 20%;
+}
+
+.form-control {
+    border-radius: 10px;
+    font-size: 1em;
+    resize: none;
+}
+
+#message {
+    height: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 0.5em 2em 0.5em 2em;
+    }
+
+    .navbar-brand {
+        font-size: 1.3em;
+    }
+
+    .nav-item {
+        font-size: 1.1em;
+    }
+
+    .header {
+        font-weight: 900;
+        font-size: 2.5em;
+        padding: 10%;
+    }
+
+    .myCard {
+        border-radius: 25px;
+        margin: 2.7% 10%;
+        padding: 10%;
+    }
+
+    .content {
+        font-size: 1.2em;
+    }
+
+    .sender {
+        font-size: 1em;
+    }
+
+    .btnGenerate {
+        width: 60%;
+        height: 50px;
+        font-size: 1.1em;
+    }
+
+    .btnSubmit {
+        margin: 15px;
+        width: 60%;
+        height: 50px;
+        font-size: 1em;
+    }
+
+    .container-about {
+        font-size: 1em;
+        padding: 10px 5%;
+    }
+
+    .container-post {
+        font-size: 1.1em;
+        padding: 10px 5%;
+    }
+}
